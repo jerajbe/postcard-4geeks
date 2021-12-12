@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.postcard {
+    position: relative;
+    display: flex;
+    width: 400px;
+    background-color: white;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.superior {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+h1 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.superior img {
+    max-width: 65px;
+}
+
+.media {
+    display: flex;
+    margin: 5px;
+    padding: 0px;
+    justify-content: space-between;
+}
+#parrafos p {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 20px;
+}
+.informacion {
+justify-content: center;
+font-size: 22px;
+
+}
+.piso{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.boton {
+border-left: 0;
+border-right: 0;
+border-top: 0;
+border-width: 1px;
+border-color: grey;
+font-family: cursive;
+}
